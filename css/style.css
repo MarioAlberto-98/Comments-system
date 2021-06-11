@@ -1,0 +1,169 @@
+.container {
+
+    margin: 20px 20px;
+
+}
+
+.secimg {
+
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.textphoto {
+    width: 400px;
+    background: rgb(255, 255, 255);
+    
+  text-align: justify;
+}
+
+.imgphoto {
+width: 550px;
+background: rgb(255, 255, 255);
+text-align: right;
+
+}
+.titlepic{
+    font-family: 'Poppins', sans-serif;
+font-size: 40px;
+}
+.parapic{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectexto{
+    margin-top: 70px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.buttonform{
+    margin-top: 20px;
+ width: 160px;
+ height: 50px;
+font-size: 20px;
+border-radius: 5px;
+background: rgb(214, 214, 214);
+border: none;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.buttonform:hover{
+    background: rgb(255, 255, 255);
+
+
+}
+
+.comentetitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+
+
+
+}
+
+
+
+.formulario{
+    margin-top: -20px;
+background: rgb(255, 255, 255);
+}
+.formdatos{
+    width: 500px;
+    
+    background: rgb(255, 255, 255);
+}
+.formdatos input[type="text"]{
+
+    border: none;
+    border-bottom: 1px solid rgb(37, 37, 37);
+    background: transparent;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+}
+.resulcomentarios{
+    width: 540px;
+    padding: 20px 20px;
+    background: rgb(255, 255, 255);
+}
+.subtitleform{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18;
+
+}
+
+.estructuraComent{
+   
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+     
+}
+
+.comentNombre{
+    
+padding-top: 30px;
+font-size: 13px;
+font-family: 'Roboto', sans-serif;
+
+}
+.comentComentario{
+    
+  padding: 10px;
+    width: 380px;
+    text-align: justify;
+   /*Linea de codigo para cortar texto y hacer que se baje*/
+   word-wrap: break-word;
+    background: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+
+
+
+@media screen and (max-width:1050px) {
+    .secimg {
+
+   
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .textphoto {
+        width: 550px;
+        background: rgb(255, 255, 255);
+      
+        
+    
+    
+    }
+    .sectexto{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+      
+    }
+    
+.formdatos{
+    width: 600px;
+}
+
+}
